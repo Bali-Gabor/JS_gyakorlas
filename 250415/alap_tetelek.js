@@ -67,7 +67,7 @@ console.log('A keresett érték indexe: ' + kereses(szamok, keres));
 function minimum(tomb){
     let min = 0;
 
-    for(let i = 0; i < tomb.length; i ++){
+    for(let i = 1; i < tomb.length; i ++){
 
         if(tomb[i] < tomb[min]){
             min = i;
@@ -123,7 +123,7 @@ console.log('A keresett érték benne van a tömbben: ' + eldont(szamok, keres))
 function maximum(tomb){
     let max = 0;
 
-    for(let i = 0; i < tomb.length; i ++){
+    for(let i = 1; i < tomb.length; i ++){
 
         if(tomb[i] > tomb[max]){
             max = i;

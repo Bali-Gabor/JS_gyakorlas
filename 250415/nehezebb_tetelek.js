@@ -55,10 +55,10 @@ function metszet(tomb1, tomb2, tomb_ki){
                     if(tomb_ki[k] == tomb1[i])
                         van = true;
                 }
-            if(van != true){
-                tomb_ki[szamlalo] = tomb1[i];
-                szamlalo ++;
-            }
+                if(van != true){
+                    tomb_ki[szamlalo] = tomb1[i];
+                    szamlalo ++;
+                }
             }
         }
     }
